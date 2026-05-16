@@ -1,12 +1,12 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="JBFinSense.API/JBFinSense.API.csproj" />
-    <Project Path="JBFinSense.Domain/JBFinSense.Domain.csproj" Id="438c4321-eb8a-42fb-bc13-7b36490656cf" />
-    <Project Path="JBFinSense.Infrastructure/JBFinSense.Infrastructure.csproj" Id="53a47ae0-b4b8-4986-84c7-fb3729f44e7f" />
-    <Project Path="JBFinSnse.Application/JBFinSense.Application.csproj" Id="b81468da-5305-42db-9d4c-fdf87a501f85" />
+    <Project Path="src/JBFinSense.API/JBFinSense.API.csproj" />
+    <Project Path="src/JBFinSense.Application/JBFinSense.Application.csproj" />
+    <Project Path="src/JBFinSense.Domain/JBFinSense.Domain.csproj" />
+    <Project Path="src/JBFinSense.Infrastructure/JBFinSense.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="JBFinSense.Integration/JBFinSense.IntegrationTests.csproj" Id="c1afb6ad-5cd6-44cc-bf63-91f44059f67f" />
-    <Project Path="JBFinSense.UnitTests/JBFinSense.UnitTests.csproj" Id="96357003-6030-43cc-8335-4b7cc4b98468" />
+    <Project Path="tests/JBFinSense.IntegrationTests/JBFinSense.IntegrationTests.csproj" />
+    <Project Path="tests/JBFinSense.UnitTests/JBFinSense.UnitTests.csproj" />
   </Folder>
 </Solution>

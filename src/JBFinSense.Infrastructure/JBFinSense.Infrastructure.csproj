@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JBFinSense.Application\JBFinSense.Application.csproj" />
+    <ProjectReference Include="..\JBFinSense.Domain\JBFinSense.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

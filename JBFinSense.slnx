@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="JBFinSense.API/JBFinSense.API.csproj" />
+    <Project Path="JBFinSnse.Application/JBFinSense.Application.csproj" Id="b81468da-5305-42db-9d4c-fdf87a501f85" />
+  </Folder>
+</Solution>

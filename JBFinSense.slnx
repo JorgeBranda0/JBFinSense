@@ -1,6 +1,8 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="JBFinSense.API/JBFinSense.API.csproj" />
+    <Project Path="JBFinSense.Domain/JBFinSense.Domain.csproj" Id="438c4321-eb8a-42fb-bc13-7b36490656cf" />
     <Project Path="JBFinSnse.Application/JBFinSense.Application.csproj" Id="b81468da-5305-42db-9d4c-fdf87a501f85" />
   </Folder>
+  <Project Path="JBFinSense.Infrastructure/JBFinSense.Infrastructure.csproj" Id="53a47ae0-b4b8-4986-84c7-fb3729f44e7f" />
 </Solution>

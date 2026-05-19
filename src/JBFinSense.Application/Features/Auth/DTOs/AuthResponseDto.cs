@@ -1,6 +1,7 @@
 ﻿namespace JBFinSense.Application.Features.Auth.DTOs
 {
-    public class AuthResponseDto
-    {
-    }
+    public sealed record AuthResponseDto(
+        string Token,
+        Guid UserId,
+        string Email);
 }

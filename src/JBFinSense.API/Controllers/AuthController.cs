@@ -1,14 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using JBFinSense.Application.Features.Auth.Commands.RegisterUser;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
 namespace JBFinSense.API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    [Route("api/auth")]
+    public class AuthController(IMediator _mediator) : ControllerBase
     {
-        public async Task<IActionResult> RegisterUser()
+        [HttpPost("register")]
+        public async Task<IActionResult> Register(RegisterUserCommand command)
         {
-
+            var result = await _mediator.Send(command);
+            return Ok(result);
         }
     }
 }
